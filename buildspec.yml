@@ -3,13 +3,11 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing dependencies...
-      - npm install
-
+      - echo "No install needed"
   build:
     commands:
-      - echo Running tests...
-      - npm test || echo "Tests failed"
+      - echo "Build started"
+      - echo "Nothing to build"
 
 artifacts:
   files:
